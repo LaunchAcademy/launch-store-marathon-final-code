@@ -2,21 +2,33 @@
   "products": [
     {
       "name": "Rubber Duck",
-      "description": "Your resident conversationalist",
       "price": 4.99,
+      "description": "Your resident conversationalist",
       "available": true
     },
     {
       "name": "Engineering Journal",
-      "description": "Record your observations and thoughts as you work through coding projects",
       "price": 7.99,
+      "description": "Record your observations and thoughts as you work through coding projects",
       "available": true
     },
     {
       "name": "Sleep Mask",
-      "description": "Get your Z's in so that you can code well in the morning",
       "price": 9.99,
+      "description": "Get your Z's in so that you can code well in the morning",
       "available": false
+    },
+    {
+      "name": "Hiking",
+      "price": "",
+      "description": "",
+      "available": true
+    },
+    {
+      "name": "stickers",
+      "price": 3,
+      "description": "",
+      "available": true
     }
   ]
 }
