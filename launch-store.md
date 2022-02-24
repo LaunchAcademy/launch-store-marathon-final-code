@@ -86,8 +86,8 @@ STEPS:
 
 6. Build the route that will render the form, and create the view template with a heading inside
 7. Update the view with a form that will allow us to add a new product
-8. Add a `save()` method to the `Product` model to persist the new product. Note that `available` should be marked as `true` by default when saving a product.
-9. Create the route that the form will post to. First build it so that it always saves the product.
+9. Create the route that the form will post to. First build it so that it creates a new Product object, logs that Product object, and redirects to `/products`.
+8. Add a `save()` method to the `Product` model to persist the new product. Note that `available` should be marked as `true` by default when saving a product. Update your route to `save()` the new product.
 10. Now, update the route to conditionally handle the saving of a product:
   - If the user fills out the proper information, the product should persist to the `products.json` file and the user should be redirected to the `/products` page.
   - If the user does not fill out the information, the JSON file should not be touched and they should stay on the `/products/new` page.
