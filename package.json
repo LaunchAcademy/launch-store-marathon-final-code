@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "./node_modules/.bin/nodemon src/app.js",
-    "dev:debug": "./node_modules/.bin/nodemon --inspect-brk src/app.js"
+    "dev:debug": "./node_modules/.bin/nodemon --inspect src/app.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
