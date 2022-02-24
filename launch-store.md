@@ -48,7 +48,7 @@ Acceptance Criteria:
 STEPS:
 
 3. Build out the `findAll` method in our model to load all products
-4. Update the route to obtains all products and pass them to the appropriate view template, and update the view template to list out each product's name and price
+4. Update the route to obtain all products and pass them to the appropriate view template, and update the view template to list out each product's name and price
 
 ### List Only Available Products
 
