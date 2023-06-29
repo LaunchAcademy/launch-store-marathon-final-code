@@ -1,0 +1,11 @@
+<h1>Welcome Coder</h1>
+
+<p>All the gear a Launcher needs</p>
+
+<ul>
+    {{#each products}}
+        {{#if this.available}}
+            <li>{{name}} ($ {{price}})</li> 
+        {{/if}}
+    {{/each}}
+</ul>
